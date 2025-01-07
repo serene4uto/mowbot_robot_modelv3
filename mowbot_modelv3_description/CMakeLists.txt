@@ -9,7 +9,7 @@ endif()
 find_package(ament_cmake REQUIRED)
 
 INSTALL(DIRECTORY 
-  meshes
+  mesh
   urdf
   config
   DESTINATION share/${PROJECT_NAME}
